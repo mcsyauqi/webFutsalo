@@ -1,0 +1,32 @@
+.intro > div > div:first-of-type {
+    padding-top: 64px;
+}
+
+.home-accent {
+    width: 90%;
+}
+
+.home-particles {
+    width: 100%;
+    position: absolute !important;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    transform: scale(-1, 1);
+}
+
+@media only screen and (max-width: 768px) {
+    .intro {
+        padding-bottom: 128px;
+    }
+
+    .intro > div > div:first-of-type {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .intro {
+        padding-bottom: 128px;
+    }
+}

@@ -1,0 +1,180 @@
+@import '../dependencies/bootstrap/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+:root {
+    --primary-color: #1FAA00;
+    --black: #212529;
+}
+
+body {
+    font-family: 'Quicksand', apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+main {
+    margin-top: 58px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+section {
+    position: relative;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+button.material-icons {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    font-size: 2rem;
+}
+
+button.material-icons:focus {
+    outline: none;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.primary-bg {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.primary-border {
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+nav.navbar {
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .1);
+    background-color: white;
+}
+
+nav.navbar a {
+    color: var(--black);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#1FAA00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-collapse.collapsing a.nav-link,
+.navbar-collapse.show a.nav-link,
+.navbar-collapse.collapsing a.nav-link.btn,
+.navbar-collapse.show a.nav-link.btn {
+    color: var(--black) !important;
+    text-align: left;
+    background-color: transparent !important;
+    font-weight: 400 !important;
+}
+
+a.nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a.nav-link {
+    padding: 8px 16px;
+    margin: 0 4px;
+}
+
+a.nav-link:hover {
+    background-color: rgba(30, 168, 0, .2);
+    border-radius: 4px;
+}
+
+a.nav-link.primary-bg:hover {
+    background-color: #24b803;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.liked {
+    color: #D81E06;
+}
+
+footer {
+    background-color: var(--black);
+    color: #929292;
+}
+
+footer a {
+    color: #929292;
+}
+
+footer a:hover {
+    color: #929292;
+    text-decoration: underline;
+}
+
+.footer-title {
+    color: #c0c0c0;
+}
+
+.secondary-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+/* .secondary-footer > div:nth-of-type(2) {
+    display: flex;
+}
+
+.secondary-footer > div:nth-of-type(2) > * {
+    margin: 0 20px;
+} */
+
+.secondary-footer ul {
+    padding-left: 24px;
+}
+
+.secondary-footer > div:first-of-type {
+    max-width: 300px;
+}
+
+.secondary-footer > div:first-of-type a {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.secondary-footer > div:not(:first-of-type) {
+    padding-top: 20px;
+}
+
+.primary-footer {
+    background-color: #1e2225;
+    color: #929292;
+    text-align: center;
+    padding: 4px 0;
+}
+
+@media only screen and (max-width: 992px)  {
+    footer > .secondary-footer.container {
+        display: none;
+    }
+}

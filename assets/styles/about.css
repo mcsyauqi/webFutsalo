@@ -1,0 +1,13 @@
+a.nav-link.this
+{
+    background-color: rgba(30, 168, 0, .2);
+    border-radius: 4px;
+}
+
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}

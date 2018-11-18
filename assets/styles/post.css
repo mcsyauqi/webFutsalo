@@ -1,0 +1,25 @@
+section {
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.content {
+    background-color: #F7F7F8;
+}
+
+.breadcrums,
+.breadcrums>a {
+    color: #727376;
+    margin-bottom: 8px;
+}
+
+.breadcrums>a:first-of-type {
+    margin-right: 8px;
+}
+
+.breadcrums>a:not(:first-of-type) {
+    margin: 0 8px;
+}
+

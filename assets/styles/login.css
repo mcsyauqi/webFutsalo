@@ -1,0 +1,7 @@
+body{
+	background: url('../images/back.jpg');
+}
+
+body > .container > .row {
+	padding-top: 58px;
+}
