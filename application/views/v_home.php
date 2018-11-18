@@ -20,7 +20,7 @@ include 'v_navbar.php';
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <h1 class="app-brand primary-color">Futsalo</h1>
                     <p>/fut-sa-lo/ n Futsalo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac lectus ut arcu condimentum bibendum. Donec tristique eleifend vulputate. Nam dui purus, dictum elementum dictum at, mattis vel elit.</p>
-                    <a class="btn primary-bg" href="user_profile.html">Cari Teman Futsal</a>
+                    <a class="btn primary-bg" href="<?php echo site_url('post');?>">Cari Teman Futsal</a>
                     <a class="btn primary-bg" href="fields.html">Pesan Lapangan</a>
                 </div>
                 <div class="col-lg-4 col-md-4 d-none d-md-block">

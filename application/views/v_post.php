@@ -86,6 +86,10 @@ include 'v_navbar.php';
         </div>
     </main>
 
+    <?php
+    include 'v_footer.php';
+    ?>
+
     <script src="<?php echo base_url();?>assets/dependencies/jquery-3.3.1.min.js"></script>
     <script src="<?php echo base_url();?>assets/dependencies/popper.min.js"></script>
     <script src="<?php echo base_url();?>assets/dependencies/bootstrap/bootstrap.min.js"></script>

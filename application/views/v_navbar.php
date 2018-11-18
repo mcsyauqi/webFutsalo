@@ -1,5 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg">
-	<img src="<?php echo base_url();?>assets/images/logo.png" width="8%">
+	<a class="navbar-brand" href="<?php echo site_url('welcome');?>">
+		<img src="<?php echo base_url();?>assets/images/logo.png" width="10%">
+	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -10,16 +12,16 @@
 				<a class="nav-link" href="<?php echo site_url('about');?>">Tentang</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="fields.html">Cari Lapangan</a>
+				<a class="nav-link" href="<?php echo site_url('fields');?>">Cari Lapangan</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="user_profile.html">Profil</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link font-weight-bold" href="login.html">Masuk</a>
+				<a class="nav-link font-weight-bold" href="<?php echo site_url('login');?>">Masuk</a>
 			</li>
 			<li class="nav-item">
-				<a class="btn nav-link primary-bg" href="register.html">Daftar</a>
+				<a class="btn nav-link primary-bg" href="<?php echo site_url('register');?>">Daftar</a>
 			</li>
 		</ul>
 	</div>
