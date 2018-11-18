@@ -1,3 +1,7 @@
+<?php
+include 'v_navbar.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

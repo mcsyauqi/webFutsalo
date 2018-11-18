@@ -1,3 +1,7 @@
+<?php
+include 'v_navbar.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,33 +14,6 @@
     <link rel="stylesheet" href="<?php echo base_url();?>assets/styles/home.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <img src="<?php echo base_url();?>assets/images/logo.png" width="8%">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Tentang</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="fields.html">Cari Lapangan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Profil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link font-weight-bold" href="login.html">Masuk</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn nav-link primary-bg" href="register.html">Daftar</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <main>
         <section class="intro container">
             <div class="row">
