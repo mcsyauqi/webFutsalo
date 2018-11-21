@@ -14,9 +14,9 @@
 			<li class="nav-item">
 				<a class="nav-link" href="<?php echo site_url('fields');?>">Cari Lapangan</a>
 			</li>
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 				<a class="nav-link" href="user_profile.html">Profil</a>
-			</li>
+			</li> -->
 			<li class="nav-item">
 				<a class="nav-link font-weight-bold" href="<?php echo site_url('login');?>">Masuk</a>
 			</li>
